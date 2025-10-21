@@ -17,7 +17,6 @@ for i in range(n):
     x_values.append(x)
     sin_values.append(sin_func(x))
     cos_values.append(cos_func(x))
-
 print("   x      sin(x)    cos(x)")
 for i in range(16):
     print(f"{x_values[i]:.5f} {sin_values[i]:.5f} {cos_values[i]:.5f}")
